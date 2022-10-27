@@ -5,7 +5,7 @@ function LinkTree() {
   const links = [
     {
       name: "Twitter Link",
-      link: "https:"
+      link: "this will be your own twitter profile url"
     },
     {
       name: "Zuri Team",
@@ -22,7 +22,8 @@ function LinkTree() {
     {
       name: "Background Check for Coders",
       link: "https:"
-    },
+
+   },
     {
       name: "Design Books",
       link: "https:"
@@ -32,7 +33,7 @@ function LinkTree() {
   return (
     <CursorStyling>
     {
-      links.map((elem)=><a href={'#'}> <LinkTreeStyle> <p>Twitter Link</p></LinkTreeStyle ></a>
+    links.map((elem)=><a href={elem.link}><LinkTreeStyle>{elem.name}</LinkTreeStyle></a>
       )
     }
     </CursorStyling>
