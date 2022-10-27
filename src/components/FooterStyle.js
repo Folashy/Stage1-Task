@@ -12,7 +12,6 @@ export const FooterStyle = styled.div`
     align-items: center;
     padding: 32px 0px 0px;
     gap: 32px;
-
     width: 100%;
     height: 64px;
 
@@ -21,10 +20,15 @@ export const FooterStyle = styled.div`
     border-top: 1px solid #EAECF0;
 
     /* Inside auto layout */
-
+    
     flex: none;
     order: 0;
     flex-grow: 0;
+
+
+@media only screen and (max-width: 600px){
+    display: none;
+}
 `
 export const TextStyle = styled.div`
     /* width: 832.28px;
@@ -40,4 +44,9 @@ export const TextStyle = styled.div`
     text-align: center;
     /* Gray/500 */
     color: #667085;
+`
+
+export const FooterWrapper = styled.div`
+    padding: 50px 8%;
+
 `

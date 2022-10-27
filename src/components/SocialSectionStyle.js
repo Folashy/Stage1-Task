@@ -9,4 +9,8 @@ padding: 24px 0px;
 gap: 24px;
 width: 100%;
 height: 24px;
+
+@media only screen and (max-width: 600px){
+    display: none;
+}
 `
