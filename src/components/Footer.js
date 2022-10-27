@@ -1,14 +1,15 @@
 import React from 'react'
 import logo from '../pictures/I4G.svg';
-import Zuri from '../pictures/Zuri.Internship_logo.svg'
+import Zuri from '../pictures/Zuri.Internship_Logo.svg'
+import { FooterStyle, TextStyle } from './FooterStyle';
 
 function Footer() {
   return (
-    <div>
+    <FooterStyle>
+    <img src={Zuri} alt='Logo'/>
+    <TextStyle>HNG internship 9 Frontend Task</TextStyle>
     <img src={logo} alt='I4G'/>
-    <p>HNG internship 9 Frontend Task</p>
-     <img src={Zuri} alt='Logo'/>
-    </div>
+    </FooterStyle>
   )
 }
 
