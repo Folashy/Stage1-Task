@@ -5,7 +5,7 @@ function LinkTree() {
   const links = [
     {
       name: "Twitter Link",
-      link: "this will be your own twitter profile url"
+      link: "https://twitter.com"
     },
     {
       name: "Zuri Team",
