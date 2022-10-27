@@ -6,8 +6,8 @@ import { SocialSectionStyle } from './SocialSectionStyle';
 function SocialSection() {
   return (
     <SocialSectionStyle>
-     <img src={git} alt='gitHub'/>
      <img src={slack} alt='slack'/>
+     <img src={git} alt='gitHub'/>
     </SocialSectionStyle>
   )
 }
