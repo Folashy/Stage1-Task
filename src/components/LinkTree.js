@@ -5,28 +5,28 @@ function LinkTree() {
   const links = [
     {
       name: "Twitter Link",
-      link: "https://twitter.com"
+      link: "https://twitter.com/folash007"
     },
     {
       name: "Zuri Team",
-      link: "https:"
+      link: "https://training.zuri.team"
     },
     {
       name: "Zuri Books",
-      link: "https:"
+      link: "http://books.zuri.team" 
     },
     {
       name: "Python Books",
-      link: "https:"
+      link: "http://books.zuri.team "
     },
     {
       name: "Background Check for Coders",
-      link: "https:"
+      link: "http://books.zuri.team"
 
    },
     {
       name: "Design Books",
-      link: "https:"
+      link: "https://books.zuri.team/design-rules"
     },
   ];
 
