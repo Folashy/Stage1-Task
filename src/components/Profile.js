@@ -1,11 +1,12 @@
 import React from 'react'
 import pics from '../pictures/folashy.jpeg'
-import { ShareButtonStyle, Wrapper } from './ProfileStyle.js'
+import { HiddenSlack, ShareButtonStyle, TextFile, Wrapper } from './ProfileStyle.js'
 import share from '../pictures/webIcon.svg'
 import icon from '../pictures/Icon.svg'
 
 function Profile() {
   return (
+    <>
     <Wrapper>
       <ShareButtonStyle>
         <img src={share} alt="Share Button" id='share'/>
@@ -13,8 +14,10 @@ function Profile() {
       </ShareButtonStyle>
       
       <img src={pics} alt=' My Pics' id='profile__img'/>
-      <div id='Folashade Ayanda'>Folashy</div>
+      <TextFile id="twitter">@folashy</TextFile>
     </Wrapper>
+    <HiddenSlack>@folashy</HiddenSlack>
+    </>
   )
 }
 

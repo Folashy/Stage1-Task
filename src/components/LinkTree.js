@@ -6,7 +6,7 @@ function LinkTree() {
     {
       name: "Twitter Link",
       link: "https://twitter.com/folash007",
-      id: "twitter"
+      id: "twitter-link"
     },
     {
       name: "Zuri Team",
@@ -20,12 +20,12 @@ function LinkTree() {
     },
     {
       name: "Python Books",
-      link: "http://books.zuri.team ",
+      link: "https://books.zuri.team/python-for-beginners?ref_id=folashy",
       id: "book__python"
     },
     {
       name: "Background Check for Coders",
-      link: "http://books.zuri.team", 
+      link: "https://background.zuri.team", 
       id: "pitch" 
 
    },

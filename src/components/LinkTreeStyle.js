@@ -14,6 +14,21 @@ export const LinkTreeStyle = styled.p`
     background: #EAECF0;
     border: 1px solid #EAECF0;
     border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Gray/900 */
+
+    color: #101828;
+
 `
 
 export const CursorStyling = styled.div`

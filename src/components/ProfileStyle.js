@@ -24,8 +24,6 @@ export const Wrapper = styled.div`
 export const TextFile = styled.div`
   
   /* Text xl/Bold */
-
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -39,7 +37,11 @@ export const TextFile = styled.div`
   color: #101828;
 `;
 
-export const ShareButtonStyle = styled.div`
+export const HiddenSlack = styled.p`
+display:none;
+`
+
+export const ShareButtonStyle = styled.button`
   position: absolute;
   width: 40px;
   height: 40px;
@@ -55,6 +57,7 @@ export const ShareButtonStyle = styled.div`
   #icon {
     display: none;
   }
+
   
   @media only screen and (max-width: 600px) {
     #share {
