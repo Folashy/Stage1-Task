@@ -16,7 +16,7 @@ function Profile() {
       <img src={pics} alt=' My Pics' id='profile__img'/>
       <TextFile id="twitter">@folashy</TextFile>
     </Wrapper>
-    <HiddenSlack>@folashy</HiddenSlack>
+    <HiddenSlack id='slack'>@folashy</HiddenSlack>
     </>
   )
 }

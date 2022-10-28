@@ -27,7 +27,6 @@ export const TextStyle = styled.div`
     /* width: 832.28px;
     height: 24px; */
     /* Text md/Normal */
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
