@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const FooterStyle = styled.div`
 
     box-sizing: border-box;
-
     /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,26 +12,20 @@ export const FooterStyle = styled.div`
     gap: 32px;
     width: 100%;
     height: 64px;
-
     /* Gray/200 */
-
     border-top: 1px solid #EAECF0;
-
     /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
 
-
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px){
     display: none;
 }
 `
 export const TextStyle = styled.div`
     /* width: 832.28px;
     height: 24px; */
-
     /* Text md/Normal */
     font-family: 'Inter';
     font-style: normal;
@@ -48,5 +40,4 @@ export const TextStyle = styled.div`
 
 export const FooterWrapper = styled.div`
     padding: 50px 8%;
-
 `

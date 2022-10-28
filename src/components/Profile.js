@@ -13,7 +13,7 @@ function Profile() {
       </ShareButtonStyle>
       
       <img src={pics} alt=' My Pics' id='profile__img'/>
-      <div>Folashy</div>
+      <div id='Folashade Ayanda'>Folashy</div>
     </Wrapper>
   )
 }

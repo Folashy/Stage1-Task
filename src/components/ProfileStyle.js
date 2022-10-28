@@ -45,12 +45,9 @@ export const ShareButtonStyle = styled.div`
   height: 40px;
   right: 15%;
   top: -1.2rem;
-
   /* Base/White */
-
   background: transparent;
   /* Gray/300 */
-
   border: 2px dotted lightgrey;
   border-radius: 100%;
   cursor: pointer;
@@ -58,6 +55,7 @@ export const ShareButtonStyle = styled.div`
   #icon {
     display: none;
   }
+  
   @media only screen and (max-width: 600px) {
     #share {
       display: none;
