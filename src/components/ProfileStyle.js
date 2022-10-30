@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   gap: 24px;
   isolation: isolate;
   width: 100%;
-  height: 142px;
+  height: 200px;
   position: relative;
   border-radius: 275px;
 

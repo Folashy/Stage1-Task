@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import "./index.css";
 import { AppStyle } from "./AppStyle";
 import Footer from "./components/Footer";
 import LinkTree from "./components/LinkTree";

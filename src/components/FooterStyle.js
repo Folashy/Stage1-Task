@@ -20,7 +20,8 @@ export const FooterStyle = styled.div`
     flex-grow: 0;
 
 @media only screen and (max-width: 600px){
-    display: none;
+   flex-direction: column;
+   align-items: flex-start;
 }
 `
 export const TextStyle = styled.div`
@@ -38,5 +39,6 @@ export const TextStyle = styled.div`
 `
 
 export const FooterWrapper = styled.div`
-    padding: 50px 8%;
+    width:80%;
+    margin:0 auto;
 `

@@ -29,6 +29,9 @@ export const LinkTreeStyle = styled.p`
 
     color: #101828;
 
+    @media only screen and (max-width: 600px){
+        font-size: 14px;
+    }
 `
 
 export const CursorStyling = styled.div`
