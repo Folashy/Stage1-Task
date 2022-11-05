@@ -20,7 +20,6 @@ export const FooterStyle = styled.div`
     flex-grow: 0;
 
 @media only screen and (max-width: 615px){
-    border: 1px solid red;
     display: block;
     gap: unset;
     
