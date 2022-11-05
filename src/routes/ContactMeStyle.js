@@ -16,7 +16,6 @@ width: 100vw;
 }
 
 .contactForm{
-    border: 1px solid green;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
