@@ -19,9 +19,18 @@ export const FooterStyle = styled.div`
     order: 0;
     flex-grow: 0;
 
-@media only screen and (max-width: 600px){
-   flex-direction: column;
+@media only screen and (max-width: 615px){
+    border: 1px solid red;
+    display: block;
+    gap: unset;
+    
+    img{
+        width: 30%;
+    }
+   /* flex-direction: column;
    align-items: flex-start;
+   width: auto; */
+
 }
 `
 export const TextStyle = styled.div`

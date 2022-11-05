@@ -1,5 +1,5 @@
 import React from 'react'
-import pics from '../pictures/folashy.jpeg'
+import pics from './../pictures/folashy.jpeg'
 import { HiddenSlack, ShareButtonStyle, TextFile, Wrapper } from './ProfileStyle.js'
 import share from '../pictures/webIcon.svg'
 import icon from '../pictures/Icon.svg'
