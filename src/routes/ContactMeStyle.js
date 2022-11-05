@@ -105,10 +105,6 @@ width: 100vw;
     margin-top: 6px;
 }
 
-input[type='checkbox']{
-    border-radius: 6px;
-}
-
 .fullName{
     display: flex;
     gap: 50px;
@@ -173,10 +169,6 @@ button{
     } 
 
     @media screen and (max-width: 615px){
-
-        .contactForm{
-            border: 1px solid red;
-        }
 
         .header p{
             font-size: 18px;
