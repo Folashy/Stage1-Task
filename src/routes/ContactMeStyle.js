@@ -16,7 +16,6 @@ width: 100vw;
 }
 
 .contactForm{
-    border: 1px solid green;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -166,6 +165,10 @@ button{
             line-height: 23px;
             margin-bottom: 18px;
         }
+
+        .contactForm{
+         width: 70%
+}
     } 
 
     @media screen and (max-width: 615px){
@@ -176,6 +179,12 @@ button{
             margin-bottom: 15px;
         }
     } 
+
+    @media screen and (max-width: 450px){
+.contactForm{
+    width: 90%
+}
+    }
 `
 
 
